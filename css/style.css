@@ -1,0 +1,80 @@
+h1,h2{color:red;
+  font-weight: bold;
+  font-size: 56px;
+  font-style: italic;
+  background-image: url(http://drishti.co/wp-content/uploads/2016/04/Indian-Food.jpg);
+  padding:0;
+  margin:0;
+}
+h2{
+  font-weight: normal;
+  font-size: 35px;
+}
+
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(120,120,120);
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    color:rgb(144,97,16);
+    font-family: verdana; 
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(240,240,240);
+    
+      
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    
+}
+a:link, a:hover, a:visited, a:active{
+ 
+  color:rgb(144,97,16);
+}
+img{
+  float:right;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
